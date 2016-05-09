@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="college.dashboard">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack Demo</title>
+    <link rel="stylesheet" href="/assets/app.css">
+    <script src="/assets/vendor.js"></script>
+    <script src="/assets/app.bundle.js"></script>
+    <link rel="styleSheet" href="node_modules/angular-ui-grid/ui-grid.min.css"/>
+</head>
+<body>
+    <div ng-controller="studentsController">
+        <h1 class="my-font-color">Students:</h1>
+        <div ui-grid="{ data: students }"></div>
+    </div>
+    <div ng-controller="teachersController">
+        <h1 class="my-font-color">Teachers:</h1>
+        <div ui-grid="{ data: teachers }"></div>
+    </div>
+    <div class="logo bower-logo">
+    </div>
+    <div class="logo browserify-logo">
+    </div>
+    <div class="logo grunt-logo">
+    </div>
+</body>
+</html>

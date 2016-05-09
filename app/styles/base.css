@@ -1,0 +1,15 @@
+.logo{
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.bower-logo{
+    background-image: url('../images/bower.png');
+}
+.grunt-logo{
+    background-image: url('../images/grunt.jpg');
+}
+.browserify-logo{
+    background-image: url('../images/browserify.png');
+}
